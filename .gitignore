@@ -1,7 +1,4 @@
 data/raw/
-*.csv
-*.xlsx
-*.rds
 
 # Arquivos temporários R
 .Rhistory
@@ -9,11 +6,14 @@ data/raw/
 .Ruserdata
 *.Rproj.user
 
-# Outputs grandes (versionaremos apenas os gráficos finais)
-outputs/
-!outputs/graphs/*.png
-!outputs/tables/*.csv
-
 # Sistema
 .DS_Store
 Thumbs.db
+
+# Apenas ignorar arquivos temporários de outputs, mas permitir gráficos e tabelas finais
+outputs/*.tmp
+outputs/temp/
+
+# Permitir explicitamente as pastas que queremos versionar
+!outputs/graphs/
+!outputs/tables/
