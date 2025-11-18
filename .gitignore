@@ -10,10 +10,14 @@ data/raw/
 .DS_Store
 Thumbs.db
 
-# Apenas ignorar arquivos temporários de outputs, mas permitir gráficos e tabelas finais
+# Permite a pasta outputs inteira
+!outputs/
+
+# Ignora arquivos temporários
 outputs/*.tmp
 outputs/temp/
 
-# Permitir explicitamente as pastas que queremos versionar
+# Permite explicitamente os gráficos e tabelas
 !outputs/graphs/
 !outputs/tables/
+
