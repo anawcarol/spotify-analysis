@@ -23,10 +23,13 @@
 
 ### 📈 Visualizações Geradas
 
-![Popularidade](outputs/graphs/01_popularity_trends.png)
-![Top Artistas](outputs/graphs/02_top_artists.png)
-![Distribuição](outputs/graphs/03_popularity_distribution.png)
-![Duração vs Popularidade](outputs/graphs/04_duration_vs_popularity.png)
+![Popularidade](../outputs/graphs/01_popularity_trends.png)
+![Top Artistas](../outputs/graphs/02_top_artists.png)
+![Distribuição](../outputs/graphs/03_popularity_distribution.png)
+![Duração vs Popularidade](../outputs/graphs/04_duration_vs_popularity.png)
+
+
+
 
 ## 🛠️ Tecnologias Utilizadas
 - **R** (Base R - sem dependências externas)
