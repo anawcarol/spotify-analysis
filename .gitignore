@@ -1,1 +1,19 @@
 data/raw/
+*.csv
+*.xlsx
+*.rds
+
+# Arquivos temporários R
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user
+
+# Outputs grandes (versionaremos apenas os gráficos finais)
+outputs/
+!outputs/graphs/*.png
+!outputs/tables/*.csv
+
+# Sistema
+.DS_Store
+Thumbs.db
