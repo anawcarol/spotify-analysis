@@ -28,17 +28,25 @@
 ![Distribuição](../outputs/graphs/03_popularity_distribution.png)
 ![Duração vs Popularidade](../outputs/graphs/04_duration_vs_popularity.png)
 
+---
 
+## 🗂️ Fonte dos Dados e Aviso de Atualização
 
+Os dados utilizados nesta análise foram obtidos a partir do site **Kaggle**, por meio de um dataset público baseado na API do Spotify.  
+Como o dataset não é atualizado automaticamente, **algumas informações de popularidade e métricas podem estar desatualizadas** em relação ao catálogo atual do Spotify.
+
+Essa análise reflete fielmente o conteúdo disponível no dataset no momento do download, mas não representa o estado em tempo real da plataforma.
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
-- **R** (Base R - sem dependências externas)
+- **R** (Base R – sem dependências externas)
 - **Git** e **GitHub** para versionamento
 - Análise de dados em larga escala (114k+ linhas)
 
 ## 🎯 Habilidades Demonstradas
-- Manipulação de dados com R base
-- Limpeza e tratamento de datasets grandes
-- Análise exploratória de dados
-- Visualização com gráficos base R
-- Versionamento com Git
+- Manipulação de dados com R base  
+- Limpeza e tratamento de datasets grandes  
+- Análise exploratória de dados  
+- Visualização com gráficos base R  
+- Versionamento com Git  
